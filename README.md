@@ -37,3 +37,8 @@ Aplikasi sederhana berbasis React untuk mencatat buku yang dimiliki, sedang diba
 - **React Router**: Navigasi antar halaman
 - **useState/useEffect**: Untuk state lokal dan efek samping
 - **useReducer**: Untuk logika state kompleks di context
+
+## Testing
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bb886969-211b-4e2d-aa56-7f131fec8d60" />
+
