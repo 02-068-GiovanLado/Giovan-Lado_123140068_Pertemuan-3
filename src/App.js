@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+// Router utama
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BookProvider } from './context/BookContext';
+import Home from './pages/Home/Home';
+import Stats from './pages/Stats/Stats';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BookProvider>
+      <Router>
+        <nav style={{ padding: '16px', borderBottom: '1px solid #ccc' }}>
+          <Link to="/" style={{ marginRight: '16px' }}>Beranda</Link>
+          <Link to="/stats">Statistik</Link>
+        </nav>
+        <div style={{ padding: '16px' }}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/stats" element={<Stats />} />
+          </Routes>
+        </div>
+      </Router>
+    </BookProvider>
   );
 }
 
