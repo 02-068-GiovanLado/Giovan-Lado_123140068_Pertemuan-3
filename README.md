@@ -26,7 +26,9 @@ Aplikasi sederhana berbasis React untuk mencatat buku yang dimiliki, sedang diba
 
 ## Screenshot
 
-![Screenshot Aplikasi](./screenshot.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c7d4957f-29c5-4ddb-846d-972ed8cfac46" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d2dbd5b1-2861-43da-a64c-a3799aedb6d3" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d310c553-3a6f-4b7a-9176-75bb3499721e" />
 
 ## Struktur React yang Digunakan
 
